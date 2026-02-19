@@ -19,5 +19,7 @@ body {
 }
 
 h1 {
-    font: "MS Sans Serif";
+    font-family: "MS Sans Serif";
+    -webkit-font-smoothing: none;
+    font-size: 14px;
 }
