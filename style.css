@@ -1,0 +1,19 @@
+body {
+  background-color: #808080; /* Darker grey "desk" background */
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background-color: #c0c0c0; /* Light silver "window" color */
+  width: 800px;              /* Fixed width for that old-school feel */
+  margin: 20px auto;         /* The 'auto' centers the box horizontally */
+  padding: 20px;
+  min-height: 100vh;         /* Makes the box go at least to the bottom */
+  
+  /* The 3D Bevel Look */
+  border-top: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #404040;
+  border-bottom: 3px solid #404040;
+}
